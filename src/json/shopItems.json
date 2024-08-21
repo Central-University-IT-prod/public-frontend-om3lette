@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Скриншотные тесты",
+    "fileName": "tests",
+    "damage": 99,
+    "heal": 0,
+    "stamina": 10,
+    "id": 0,
+    "cost": 120
+  },
+  {
+    "name": "Гантеля",
+    "fileName": "weights",
+    "damage": 0,
+    "heal": 10,
+    "stamina": 1,
+    "id": 1,
+    "cost": 8
+  },
+  {
+    "name": "Стакан воды",
+    "fileName": "glass",
+    "damage": 0,
+    "heal": 20,
+    "stamina": 2,
+    "id": 2,
+    "cost": 15
+  },
+  {
+    "name": "Прогулка",
+    "fileName": "walk",
+    "damage": 0,
+    "heal": 40,
+    "stamina": 5,
+    "id": 3,
+    "cost": 25
+  },
+  {
+    "name": "Спортзал",
+    "fileName": "gym",
+    "damage": 20,
+    "heal": 10,
+    "stamina": 3,
+    "id": 4,
+    "cost": 20
+  },
+  {
+    "name": "Трубка",
+    "fileName": "tube",
+    "damage": 40,
+    "heal": -10,
+    "stamina": 3,
+    "id": 5,
+    "cost": 10
+  },
+  {
+    "name": "Сигареты",
+    "fileName": "sigarets",
+    "damage": 20,
+    "heal": -5,
+    "stamina": 2,
+    "id": 6,
+    "cost": 25
+  },
+  {
+    "name": "Алкоголь",
+    "fileName": "alcohol",
+    "damage": 20,
+    "heal": -15,
+    "stamina": 2,
+    "id": 7,
+    "cost": 30
+  }
+]

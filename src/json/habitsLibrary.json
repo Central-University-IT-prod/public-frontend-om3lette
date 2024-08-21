@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Пить",
+    "category": "Питание",
+    "period": "daily",
+    "targetValue": 3000,
+    "metrics": "мл"
+  },
+  {
+    "title": "Есть",
+    "category": "Питание",
+    "period": "daily",
+    "targetValue": 2500,
+    "metrics": "калорий"
+  },
+  {
+    "title": "Спать",
+    "category": "Сон",
+    "period": "daily",
+    "targetValue": 8,
+    "metrics": "часов"
+  },
+  {
+    "title": "Ходить",
+    "category": "Здоровье",
+    "period": "daily",
+    "targetValue": 5000,
+    "metrics": "шагов"
+  },
+  {
+    "title": "Ложиться спать в 10",
+    "category": "Сон",
+    "period": "weekly",
+    "targetValue": false,
+    "metrics": false
+  },
+  {
+    "title": "Ходить в тренажерный зал",
+    "category": "Фитнес",
+    "period": "monthly",
+    "targetValue": 3,
+    "metrics": "раза"
+  }
+]

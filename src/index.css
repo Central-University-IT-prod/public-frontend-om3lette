@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Bellota:700|Exo%202:400');
+@import 'primeicons/primeicons.css';
+@import 'primevue/resources/themes/aura-light-green/theme.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  label {
+    @apply font-bold block mb-2;
+  }
+  input {
+    @apply p-2;
+  }
+}
+
+.confirm-button {
+  @apply bg-accent-500 border-4 border-accent-500 p-3 text-background-50;
+}
+
+.gameCard {
+  @apply absolute bottom-0 left-0 w-full pb-2;
+}
+
+body {
+  @apply bg-background-50;
+}
+
+.p-toast {
+  @apply max-w-[80%];
+}
+.p-toast.p-toast-top-right,
+.p-toast.p-toast-bottom-right {
+  @apply left-auto right-[10px];
+}
+
+/* https://primevue.org/icons */
+body {
+  font-family: 'Exo 2';
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bellota';
+  font-weight: 700;
+}
+
+html {
+  font-size: 100%;
+} /* 16px */
+
+h1 {
+  font-size: 4.21rem; /* 67.36px */
+}
+
+h2 {
+  font-size: 3.158rem; /* 50.56px */
+}
+
+h3 {
+  font-size: 2.369rem; /* 37.92px */
+}
+
+h4 {
+  font-size: 1.777rem; /* 28.48px */
+}
+
+h5 {
+  font-size: 1.333rem; /* 21.28px */
+}
+
+small {
+  font-size: 0.75rem; /* 12px */
+}
